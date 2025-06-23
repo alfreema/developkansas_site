@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Develop Kansas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#cfcabe',
+              dark: '#111111',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      };
+    </script>
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="text-gray-800 bg-white font-sans">
+
+    <!-- Sticky Nav -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur text-gray-800 shadow">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex justify-center items-center">
+        <nav class="space-x-6 text-sm font-light">
+          <a href="#home" class="hover:text-gray-600 transition">Home</a>
+          <a href="#about" class="hover:text-gray-600 transition">About</a>
+          <a href="#projects" class="hover:text-gray-600 transition">Projects</a>
+          <a href="#bio" class="hover:text-gray-600 transition">Bio</a>
+          <a href="#contact" class="hover:text-gray-600 transition">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="w-full min-h-screen flex flex-col items-center justify-center text-center bg-white px-6 py-20 relative">
+      <img src="https://developkansas.com/wp-content/uploads/2024/07/developkansas.webp" alt="Develop Kansas Logo" class="w-64 mb-6" />
+      <h1 class="text-4xl font-light mb-4">Investing in Kansas Real Estate</h1>
+      <p class="text-lg max-w-xl text-gray-600 mb-6 mx-auto">
+        From renovating industrial spaces to planning new housing, Develop Kansas explores opportunities to build long-term value.
+      </p>
+      <div class="absolute bottom-24 left-1/2 transform -translate-x-1/2 z-10">
+        <div class="w-6 h-10 border-2 border-gray-400 rounded-full flex items-start justify-center p-1">
+          <div class="w-1 h-2 bg-gray-400 animate-bounce rounded-full"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What Sets Us Apart -->
+    <section class="py-24 px-6 bg-gray-100" id="about">
+        <div class="max-w-3xl mx-auto" data-aos="fade-up">
+            <p class="text-md text-gray-700">
+            Develop Kansas LLC was recently formed to invest in real estate—primarily through new development. We're exploring opportunities that create long-term value, starting with projects that improve overlooked properties and add something meaningful to Kansas communities.
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="py-20 px-6 bg-white" id="team">
+    <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+        <h2 class="text-3xl font-light mb-6 text-gray-800">Who We Are</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="space-y-2">
+            <img src="https://raw.githubusercontent.com/alfreema/developkansas_site/main/aaron.png" alt="Aaron" class="rounded shadow" />
+            <p class="text-sm text-gray-600">Aaron</p>
+        </div>
+        <div class="space-y-2">
+            <img src="https://raw.githubusercontent.com/alfreema/developkansas_site/main/aj.png" alt="AJ" class="rounded shadow" />
+            <p class="text-sm text-gray-600">AJ</p>
+        </div>
+        <div class="space-y-2">
+            <img src="https://raw.githubusercontent.com/alfreema/developkansas_site/main/edwin.png" alt="Edwin" class="rounded shadow" />
+            <p class="text-sm text-gray-600">Edwin</p>
+        </div>
+        <div class="space-y-2">
+            <img src="https://raw.githubusercontent.com/alfreema/developkansas_site/main/john.png" alt="John" class="rounded shadow" />
+            <p class="text-sm text-gray-600">John</p>
+        </div>
+        <div class="space-y-2">
+            <img src="https://raw.githubusercontent.com/alfreema/developkansas_site/main/larissa.png" alt="Larissa" class="rounded shadow" />
+            <p class="text-sm text-gray-600">Larissa</p>
+        </div>
+        <div class="space-y-2">
+            <img src="https://raw.githubusercontent.com/alfreema/developkansas_site/main/scott.png" alt="Scott" class="rounded shadow" />
+            <p class="text-sm text-gray-600">Scott</p>
+        </div>
+        </div>
+    </div>
+    </section>
+                      
+    <!-- Projects -->
+    <section class="py-20 px-6 bg-gray-200" id="projects">
+      <div class="max-w-4xl mx-auto" data-aos="fade-up">
+        <h2 class="text-3xl font-light mb-4 text-gray-600">Current Projects</h2>
+        <ul class="space-y-4 text-sm">
+            <ul class="space-y-4 text-sm">
+                <li>
+                  <strong>MacArthur - Commercial Development:</strong> Currently analyzing a small apartment development and/or senior living development.
+                  <ul class="list-disc list-inside mt-2 ml-4 text-gray-700 space-y-1">
+                    <li>Purchased distressed abutting lots (one limited commercial, one residential)</li>
+                    <li>Rezoned residential lot to limited commercial</li>
+                    <li>Scraped distressed buildings to prepare for development</li>
+                  </ul>
+                </li>
+              </ul>
+            </ul>
+      </div>
+      <div class="max-w-4xl mt-6 mx-auto" data-aos="fade-up">
+        <h2 class="text-2xl font-light mb-4 text-gray-600">Some of Our Completed Projects</h2>
+        <ul class="space-y-4 text-sm">
+          <li><i>17th and Tyler - Cricket Alley Boutique:</i> Converted a distressed residence into a vibrant boutique.</li>
+          <li><i>N Santa Fe - SendThisFile Office:</i> Transformed an industrial space into a modern office.</li>
+          <li><i>W Central - Cricket Alley Ministries:</i> Finished out a retail space supporting women's charity.</li>
+          <li><i>E Lockwood:</i> Revitalized a severely distressed home.</li>
+          <li><i>McComas, Maple Dunes, Coach House, etc.:</i> Various interior remodels, decks, patios and more.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Bio -->
+    <section class="py-20 px-6 bg-white text-gray-800" id="bio">
+      <div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-start" data-aos="fade-up">
+        <img
+          src="https://raw.githubusercontent.com/alfreema/freemanconstructs_web/main/200x200.jpg"
+          alt="Aaron Freeman"
+          class="w-40 h-40 object-cover rounded-xl shadow-md"
+        />
+
+        <div>
+          <h2 class="text-3xl font-light mb-4 text-gray-600">Bio: Aaron Freeman</h2>
+          <p>
+            Aaron Freeman is a lifelong technologist and entrepreneur. He began coding at age 8, launched a BBS in 1983, and later earned a B.S. in
+            Computer Science and an M.S. in Electrical Engineering (with a focus on computer architecture) from Wichita State University.
+          </p>
+          <p class="mt-4">
+            While pursuing his Ph.D. he was awarded a Teaching Fellowship, where he taught various programming, computer architecture, genetic algorithms, and other courses. He founded Adroit, a consulting firm serving major clients including AmeriServe (formerly PepsiCo Food Services). He was awarded a U.S. patent for the first
+            internet-connected sprinkler system (US-7123993-B1) and founded <a href="https://sendthisfile.com">SendThisFile</a>, the first file-transfer-as-a-service platform.
+          </p>
+          <p class="mt-4">
+            He and his wife Larissa are active investors and entrepreneurs across sectors including retail, real estate, and infrastructure.
+            He holds a Class A General Contractor's License and has led development efforts in robotics, cloud, real estate, trading, and AI.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="py-20 px-6 bg-white text-gray-800" id="contact">
+      <div class="max-w-3xl mx-auto text-center" data-aos="fade-up">
+        <h2 class="text-3xl font-light mb-4 text-gray-600">Get in Touch</h2>
+        <p class="text-lg font-mono">aaron@developkansas.com</p>
+        <p class="mt-2">+1 (316) 305-5412</p>
+        <p class="mt-2">8918 W 21st St. N., Ste 200, #183, Wichita, KS 67217</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center text-gray-500 text-sm bg-gray-100">
+      <p>&copy; 2024 Develop Kansas LLC | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
+</html>
